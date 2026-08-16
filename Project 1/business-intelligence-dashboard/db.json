@@ -1,0 +1,62 @@
+{
+  "kpi": {
+    "revenue": { "value": 2845000, "change": 12.5 },
+    "customers": { "value": 12480, "change": 8.3 },
+    "orders": { "value": 8450, "change": -2.1 },
+    "growth": { "value": 23.5, "change": 5.2 },
+    "conversion": { "value": 3.8, "change": 0.9 }
+  },
+  "revenue": [
+    { "month": "Jan", "revenue": 180000 },
+    { "month": "Feb", "revenue": 195000 },
+    { "month": "Mar", "revenue": 210000 },
+    { "month": "Apr", "revenue": 225000 },
+    { "month": "May", "revenue": 240000 },
+    { "month": "Jun", "revenue": 260000 },
+    { "month": "Jul", "revenue": 275000 },
+    { "month": "Aug", "revenue": 290000 },
+    { "month": "Sep", "revenue": 310000 },
+    { "month": "Oct", "revenue": 325000 },
+    { "month": "Nov", "revenue": 340000 },
+    { "month": "Dec", "revenue": 355000 }
+  ],
+  "sales": [
+    { "month": "Jan", "current": 15000, "previous": 12000 },
+    { "month": "Feb", "current": 16500, "previous": 13500 },
+    { "month": "Mar", "current": 18000, "previous": 15000 },
+    { "month": "Apr", "current": 19500, "previous": 16500 },
+    { "month": "May", "current": 21000, "previous": 18000 },
+    { "month": "Jun", "current": 22500, "previous": 19500 }
+  ],
+  "growth": [
+    { "month": "Jan", "customers": 850 },
+    { "month": "Feb", "customers": 920 },
+    { "month": "Mar", "customers": 1000 },
+    { "month": "Apr", "customers": 1080 },
+    { "month": "May", "customers": 1150 },
+    { "month": "Jun", "customers": 1250 }
+  ],
+  "category": [
+    { "name": "Electronics", "value": 4500, "percentage": 35 },
+    { "name": "Clothing", "value": 3200, "percentage": 25 },
+    { "name": "Books", "value": 2100, "percentage": 16 },
+    { "name": "Home", "value": 1800, "percentage": 14 },
+    { "name": "Sports", "value": 1300, "percentage": 10 }
+  ],
+  "customers": [
+    { "name": "John Smith", "revenue": 28500, "orders": 45, "status": "active", "region": "North" },
+    { "name": "Sarah Johnson", "revenue": 32000, "orders": 52, "status": "active", "region": "South" },
+    { "name": "Michael Brown", "revenue": 18000, "orders": 28, "status": "pending", "region": "East" },
+    { "name": "Emily Davis", "revenue": 42000, "orders": 68, "status": "active", "region": "West" },
+    { "name": "David Wilson", "revenue": 15000, "orders": 22, "status": "inactive", "region": "North" },
+    { "name": "Lisa Martinez", "revenue": 35000, "orders": 55, "status": "active", "region": "South" },
+    { "name": "James Taylor", "revenue": 22000, "orders": 35, "status": "pending", "region": "East" },
+    { "name": "Maria Anderson", "revenue": 38000, "orders": 60, "status": "active", "region": "West" },
+    { "name": "Robert Thomas", "revenue": 12000, "orders": 18, "status": "inactive", "region": "North" },
+    { "name": "Patricia Jackson", "revenue": 29000, "orders": 48, "status": "active", "region": "South" },
+    { "name": "Jennifer White", "revenue": 31000, "orders": 50, "status": "active", "region": "East" },
+    { "name": "Charles Harris", "revenue": 16000, "orders": 25, "status": "pending", "region": "West" },
+    { "name": "Susan Martin", "revenue": 27000, "orders": 42, "status": "active", "region": "North" },
+    { "name": "Daniel Thompson", "revenue": 19000, "orders": 30, "status": "inactive", "region": "South" }
+  ]
+}

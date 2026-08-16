@@ -1,0 +1,21 @@
+# Backup archives
+*.zip
+# Video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm 
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.*
+
+# Vercel
+.vercel/

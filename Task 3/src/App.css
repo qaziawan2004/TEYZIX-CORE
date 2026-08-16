@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Global Dark Mode Styles */
+html.dark {
+  background-color: #0F0F1A;
+}
+
+html:not(.dark) {
+  background-color: #ffffff;
+}
+
+/* All sections should respect dark mode */
+.dark .bg-white {
+  background-color: #0F0F1A !important;
+}
+
+.dark .bg-gray-50 {
+  background-color: #0F0F1A !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: #1A1A2E !important;
+}
+
+.dark .border-gray-200 {
+  border-color: #1A1A2E !important;
+}
+
+.dark .text-gray-900 {
+  color: #ffffff !important;
+}
+
+.dark .text-gray-600 {
+  color: #b0b0b0 !important;
+}
+
+.dark .text-gray-700 {
+  color: #cccccc !important;
+}
+
+.dark .text-gray-500 {
+  color: #999999 !important;
+}
